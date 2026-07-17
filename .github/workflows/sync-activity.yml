@@ -13,18 +13,16 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 jobs:
   refresh:
     if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           ref: main
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           node-version: 22
       - name: Refresh public coding activity
@@ -38,20 +36,3 @@ jobs:
           git add data/activity.json
           git diff --cached --quiet || git commit -m "chore: sync portfolio activity"
           git push
-
-  deploy-refreshed-data:
-    needs: refresh
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: main
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: .
-      - id: deployment
-        uses: actions/deploy-pages@v4
