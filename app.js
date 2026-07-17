@@ -46,12 +46,15 @@ function renderEvents(events) {
 }
 
 function renderProjects(repos) {
-  const grid = document.querySelector("#github-projects-grid");
+  const grid = document.querySelector("#projects-grid");
   if (!grid || !repos || !repos.length) return;
   
-  grid.replaceChildren(...repos.map((repo) => {
+  // Remove any previously fetched dynamic projects to prevent duplicates on re-render
+  grid.querySelectorAll(".dynamic-project").forEach(el => el.remove());
+  
+  const elements = repos.map((repo) => {
     const article = document.createElement("article");
-    article.className = "project-card glass-card reveal is-visible";
+    article.className = "project-card glass-card reveal is-visible dynamic-project";
     
     const h3 = document.createElement("h3");
     h3.className = "futuristic-text";
@@ -87,7 +90,28 @@ function renderProjects(repos) {
     
     article.append(h3, p, tagRow, link);
     return article;
-  }));
+  });
+  
+  grid.append(...elements);
+}
+
+function setupCarousel() {
+  const grid = document.querySelector("#projects-grid");
+  const btnNext = document.querySelector(".carousel-btn.next");
+  const btnPrev = document.querySelector(".carousel-btn.prev");
+  
+  if (!grid || !btnNext || !btnPrev) return;
+  
+  // Scroll width logic: scroll roughly the width of one card + gap
+  const scrollAmount = 350;
+  
+  btnNext.addEventListener("click", () => {
+    grid.scrollBy({ left: scrollAmount, behavior: "smooth" });
+  });
+  
+  btnPrev.addEventListener("click", () => {
+    grid.scrollBy({ left: -scrollAmount, behavior: "smooth" });
+  });
 }
 
 function applyActivity(data) {
@@ -154,5 +178,6 @@ function setupCursorGlow() {
 document.querySelector("#year").textContent = new Date().getFullYear();
 setupReveal();
 setupCursorGlow();
+setupCarousel();
 loadActivity();
 

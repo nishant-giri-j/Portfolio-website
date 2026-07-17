@@ -71,49 +71,47 @@
 
       <section id="work" class="work section-shell">
         <div class="reveal">
-          <p class="section-kicker">Selected Work</p>
-          <h2>Code with a purpose.</h2>
-          <p class="section-desc">Engineering-driven products, translated into elegant software solutions.</p>
+          <p class="section-kicker">Engineering Portfolio</p>
+          <h2>Built for scale. Open by default.</h2>
+          <p class="section-desc">A collection of my highlighted system architectures, full-stack products, and every open-source repository I maintain.</p>
         </div>
 
-        <div class="project-grid">
-          <article class="project-card glass-card reveal">
-            <h3>InsightFlow</h3>
-            <p>Multimodal financial intelligence that brings quantitative models, NLP, retrieval, and feedback loops into one decision workspace.</p>
-            <div class="tag-row">
-              <span>FastAPI</span><span>FinBERT</span><span>XGBoost</span><span>React</span>
-            </div>
-            <a class="project-link" href="https://github.com/nishant-giri-j/InsightFlow" target="_blank" rel="noopener">View Project</a>
-          </article>
+        <div class="carousel-wrapper reveal">
+          <button class="carousel-btn prev" aria-label="Scroll left">←</button>
+          
+          <div id="projects-grid" class="project-grid">
+            <!-- Highlighted Work (Hardcoded) -->
+            <article class="project-card glass-card">
+              <h3>InsightFlow</h3>
+              <p>Multimodal financial intelligence that brings quantitative models, NLP, retrieval, and feedback loops into one decision workspace.</p>
+              <div class="tag-row">
+                <span>FastAPI</span><span>FinBERT</span><span>XGBoost</span><span>React</span>
+              </div>
+              <a class="project-link" href="https://github.com/nishant-giri-j/InsightFlow" target="_blank" rel="noopener">View Project</a>
+            </article>
 
-          <article class="project-card glass-card reveal">
-            <h3>Netra-Vani</h3>
-            <p>An assistive Morse-to-speech interface that adapts to each person's rhythm using eye-blink, voice, mouse, and text inputs.</p>
-            <div class="tag-row">
-              <span>Computer Vision</span><span>Speech</span><span>Python</span>
-            </div>
-            <a class="project-link" href="https://github.com/nishant-giri-j/Netra-Vani" target="_blank" rel="noopener">View Project</a>
-          </article>
+            <article class="project-card glass-card">
+              <h3>Netra-Vani</h3>
+              <p>An assistive Morse-to-speech interface that adapts to each person's rhythm using eye-blink, voice, mouse, and text inputs.</p>
+              <div class="tag-row">
+                <span>Computer Vision</span><span>Speech</span><span>Python</span>
+              </div>
+              <a class="project-link" href="https://github.com/nishant-giri-j/Netra-Vani" target="_blank" rel="noopener">View Project</a>
+            </article>
 
-          <article class="project-card glass-card reveal">
-            <h3>MISH</h3>
-            <p>A local autonomous agent with persistent memory, tool creation, self-improvement loops, and a deliberately human interface.</p>
-            <div class="tag-row">
-              <span>Python</span><span>Ollama</span><span>Agent Systems</span>
-            </div>
-            <a class="project-link" href="https://github.com/nishant-giri-j/Artificial-General-Intelligence" target="_blank" rel="noopener">View Project</a>
-          </article>
-        </div>
-      </section>
+            <article class="project-card glass-card">
+              <h3>MISH</h3>
+              <p>A local autonomous agent with persistent memory, tool creation, self-improvement loops, and a deliberately human interface.</p>
+              <div class="tag-row">
+                <span>Python</span><span>Ollama</span><span>Agent Systems</span>
+              </div>
+              <a class="project-link" href="https://github.com/nishant-giri-j/Artificial-General-Intelligence" target="_blank" rel="noopener">View Project</a>
+            </article>
+            
+            <!-- Dynamic GitHub Repositories will be appended here -->
+          </div>
 
-      <section id="all-projects" class="section-shell">
-        <div class="reveal">
-          <p class="section-kicker">Open Source</p>
-          <h2>All GitHub Projects.</h2>
-          <p class="section-desc">A complete archive of my public repositories, fetched live from GitHub.</p>
-        </div>
-        <div id="github-projects-grid" class="project-grid">
-          <!-- Populated dynamically by app.js -->
+          <button class="carousel-btn next" aria-label="Scroll right">→</button>
         </div>
       </section>
 
