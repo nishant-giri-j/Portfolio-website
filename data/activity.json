@@ -1,18 +1,29 @@
 {
-  "updatedAt": null,
+  "updatedAt": "2026-07-17T09:07:00.312Z",
   "github": {
     "username": "nishant-giri-j",
-    "publicRepos": 12,
+    "publicRepos": 13,
     "followers": 1,
-    "updatedAt": null,
-    "recentEvents": []
+    "updatedAt": "2026-02-13T10:27:46Z",
+    "recentEvents": [
+      {
+        "type": "PUSH",
+        "description": "Pushed 0 commits to Portfolio-website",
+        "createdAt": "2026-07-17T09:06:44Z"
+      },
+      {
+        "type": "CREATE",
+        "description": "Created branch in Portfolio-website",
+        "createdAt": "2026-07-17T09:04:43Z"
+      }
+    ]
   },
   "leetcode": {
     "username": "girinb",
-    "solved": null,
-    "easy": null,
-    "medium": null,
-    "hard": null
+    "solved": 156,
+    "easy": 45,
+    "medium": 90,
+    "hard": 21
   },
   "hackerrank": {
     "username": "girinb",
@@ -20,4 +31,3 @@
     "label": "open coding profile"
   }
 }
-
