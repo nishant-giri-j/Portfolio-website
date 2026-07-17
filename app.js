@@ -9,7 +9,6 @@ const selectors = {
   leetcodeHard: document.querySelector("#leetcode-hard"),
   hackerrankMain: document.querySelector("#hackerrank-main-stat"),
   hackerrankLabel: document.querySelector("#hackerrank-label"),
-  eventList: document.querySelector("#event-list"),
   syncStatus: document.querySelector("#sync-status"),
   activityUpdated: document.querySelector("#activity-updated"),
 };
@@ -29,21 +28,7 @@ function relativeTime(isoDate) {
   return `Updated ${Math.floor(seconds / size)}${suffix} ago`;
 }
 
-function renderEvents(events) {
-  if (!events?.length) return;
-  selectors.eventList.replaceChildren(...events.slice(0, 5).map((event) => {
-    const item = document.createElement("li");
-    const type = document.createElement("span");
-    const description = document.createElement("span");
-    const time = document.createElement("time");
-    type.className = "event-type";
-    type.textContent = event.type || "UPDATE";
-    description.textContent = event.description || "New public activity";
-    time.textContent = event.createdAt ? formatter.format(new Date(event.createdAt)).toUpperCase() : "RECENT";
-    item.append(type, description, time);
-    return item;
-  }));
-}
+
 
 function renderProjects(repos) {
   const grid = document.querySelector("#projects-grid");
@@ -129,12 +114,12 @@ function applyActivity(data) {
   setText(selectors.leetcodeHard, leetcode.hard);
   setText(selectors.hackerrankMain, hackerrank.primaryStat);
   setText(selectors.hackerrankLabel, hackerrank.label);
-  renderEvents(github.recentEvents);
+  
   if (github.repositories) {
     renderProjects(github.repositories);
   }
 
-  const updated = data.updatedAt ? `Last sync: ${formatter.format(new Date(data.updatedAt))}` : "Awaiting first sync";
+  const updated = data.updatedAt ? `Last updated: ${formatter.format(new Date(data.updatedAt))}` : "Awaiting first sync";
   setText(selectors.activityUpdated, updated);
   setText(selectors.syncStatus, data.updatedAt ? "Public activity synced" : "Syncing public activity");
 }
