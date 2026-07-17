@@ -137,6 +137,30 @@ h2 {
   border-color: rgba(0,0,0,0.15); 
 }
 
+/* Futuristic Hover Effects */
+.futuristic-text {
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  background: linear-gradient(90deg, var(--text-primary), var(--text-primary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% auto;
+}
+
+.glass-card:hover .futuristic-text {
+  background: linear-gradient(90deg, var(--accent), #8a2be2, var(--accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% auto;
+  animation: shine 3s linear infinite;
+  letter-spacing: 0.02em;
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+
 /* Projects Grid */
 .project-grid {
   display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem;

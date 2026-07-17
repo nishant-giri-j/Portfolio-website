@@ -45,6 +45,51 @@ function renderEvents(events) {
   }));
 }
 
+function renderProjects(repos) {
+  const grid = document.querySelector("#github-projects-grid");
+  if (!grid || !repos || !repos.length) return;
+  
+  grid.replaceChildren(...repos.map((repo) => {
+    const article = document.createElement("article");
+    article.className = "project-card glass-card reveal is-visible";
+    
+    const h3 = document.createElement("h3");
+    h3.className = "futuristic-text";
+    h3.textContent = repo.name;
+    
+    const p = document.createElement("p");
+    p.textContent = repo.description || "No description provided.";
+    
+    const tagRow = document.createElement("div");
+    tagRow.className = "tag-row";
+    
+    // Add language if available
+    if (repo.language) {
+      const langSpan = document.createElement("span");
+      langSpan.textContent = repo.language;
+      langSpan.style.fontWeight = "600";
+      tagRow.appendChild(langSpan);
+    }
+    
+    // Add topics
+    repo.topics.forEach(topic => {
+      const topicSpan = document.createElement("span");
+      topicSpan.textContent = topic;
+      tagRow.appendChild(topicSpan);
+    });
+    
+    const link = document.createElement("a");
+    link.className = "project-link";
+    link.href = repo.url;
+    link.target = "_blank";
+    link.rel = "noopener";
+    link.textContent = "View Repository";
+    
+    article.append(h3, p, tagRow, link);
+    return article;
+  }));
+}
+
 function applyActivity(data) {
   const github = data.github || {};
   const leetcode = data.leetcode || {};
@@ -61,6 +106,9 @@ function applyActivity(data) {
   setText(selectors.hackerrankMain, hackerrank.primaryStat);
   setText(selectors.hackerrankLabel, hackerrank.label);
   renderEvents(github.recentEvents);
+  if (github.repositories) {
+    renderProjects(github.repositories);
+  }
 
   const updated = data.updatedAt ? `Last sync: ${formatter.format(new Date(data.updatedAt))}` : "Awaiting first sync";
   setText(selectors.activityUpdated, updated);

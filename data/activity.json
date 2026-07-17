@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T13:13:49.899Z",
+  "updatedAt": "2026-07-17T13:22:18.116Z",
   "github": {
     "username": "nishant-giri-j",
     "publicRepos": 14,
@@ -35,6 +35,120 @@
         "type": "CREATE",
         "description": "Created branch in Portfolio-website",
         "createdAt": "2026-07-17T09:04:43Z"
+      }
+    ],
+    "repositories": [
+      {
+        "name": "Portfolio-website",
+        "description": "",
+        "url": "https://github.com/nishant-giri-j/Portfolio-website",
+        "topics": [],
+        "language": "HTML",
+        "stargazers_count": 0
+      },
+      {
+        "name": "resume",
+        "description": "",
+        "url": "https://github.com/nishant-giri-j/resume",
+        "topics": [],
+        "language": null,
+        "stargazers_count": 0
+      },
+      {
+        "name": "Agro",
+        "description": "",
+        "url": "https://github.com/nishant-giri-j/Agro",
+        "topics": [],
+        "language": "JavaScript",
+        "stargazers_count": 0
+      },
+      {
+        "name": "InsightFlow",
+        "description": "",
+        "url": "https://github.com/nishant-giri-j/InsightFlow",
+        "topics": [],
+        "language": "JavaScript",
+        "stargazers_count": 0
+      },
+      {
+        "name": "basic-fast-api-project",
+        "description": "Here, i used basic react knowledge, backend in python and shown how to use API key to call any AI response",
+        "url": "https://github.com/nishant-giri-j/basic-fast-api-project",
+        "topics": [],
+        "language": "CSS",
+        "stargazers_count": 0
+      },
+      {
+        "name": "jointright",
+        "description": "",
+        "url": "https://github.com/nishant-giri-j/jointright",
+        "topics": [],
+        "language": "JavaScript",
+        "stargazers_count": 0
+      },
+      {
+        "name": "basic-LLM-project",
+        "description": "using finbert sentimental analysis and deploying over huggingface",
+        "url": "https://github.com/nishant-giri-j/basic-LLM-project",
+        "topics": [],
+        "language": "Python",
+        "stargazers_count": 0
+      },
+      {
+        "name": "Artificial-General-Intelligence",
+        "description": "i've built an autonomous, self-improving, tool-creating, OS-controlling local AI agent with a GUI face, persistent memory, and the ability to rewrite its own code. It's a foundational AGI experiment running entirely on your machine.",
+        "url": "https://github.com/nishant-giri-j/Artificial-General-Intelligence",
+        "topics": [],
+        "language": null,
+        "stargazers_count": 0
+      },
+      {
+        "name": "GAN-Plant-Disease-Research",
+        "description": "",
+        "url": "https://github.com/nishant-giri-j/GAN-Plant-Disease-Research",
+        "topics": [],
+        "language": "Python",
+        "stargazers_count": 0
+      },
+      {
+        "name": "Netra-Vani",
+        "description": "",
+        "url": "https://github.com/nishant-giri-j/Netra-Vani",
+        "topics": [],
+        "language": "Python",
+        "stargazers_count": 0
+      },
+      {
+        "name": "Deepfake_Research",
+        "description": "",
+        "url": "https://github.com/nishant-giri-j/Deepfake_Research",
+        "topics": [],
+        "language": "Python",
+        "stargazers_count": 0
+      },
+      {
+        "name": "INTRODUCTION",
+        "description": "",
+        "url": "https://github.com/nishant-giri-j/INTRODUCTION",
+        "topics": [],
+        "language": "Python",
+        "stargazers_count": 0
+      },
+      {
+        "name": "logo",
+        "description": "",
+        "url": "https://github.com/nishant-giri-j/logo",
+        "topics": [],
+        "language": "CSS",
+        "stargazers_count": 0
+      },
+      {
+        "name": "shopping",
+        "description": "",
+        "url": "https://github.com/nishant-giri-j/shopping",
+        "topics": [],
+        "language": "TypeScript",
+        "stargazers_count": 0
       }
     ]
   },

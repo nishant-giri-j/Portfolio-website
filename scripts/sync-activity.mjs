@@ -30,16 +30,30 @@ function summarizeGithubEvent(event) {
 }
 
 async function githubActivity() {
-  const [profile, events] = await Promise.all([
+  const [profile, events, repos] = await Promise.all([
     fetchJson(`https://api.github.com/users/${githubUser}`, { headers: githubHeaders }),
     fetchJson(`https://api.github.com/users/${githubUser}/events/public?per_page=12`, { headers: githubHeaders }),
+    fetchJson(`https://api.github.com/users/${githubUser}/repos?sort=updated&per_page=100`, { headers: githubHeaders }),
   ]);
+
+  const repositories = repos
+    .filter((repo) => !repo.fork)
+    .map((repo) => ({
+      name: repo.name,
+      description: repo.description || "",
+      url: repo.html_url,
+      topics: repo.topics || [],
+      language: repo.language,
+      stargazers_count: repo.stargazers_count,
+    }));
+
   return {
     username: githubUser,
     publicRepos: profile.public_repos,
     followers: profile.followers,
     updatedAt: profile.updated_at,
     recentEvents: events.filter((event) => ["PushEvent", "PullRequestEvent", "CreateEvent", "IssuesEvent", "WatchEvent", "ForkEvent"].includes(event.type)).map(summarizeGithubEvent),
+    repositories: repositories,
   };
 }
 
@@ -77,7 +91,7 @@ async function attempt(label, operation, fallback) {
   }
 }
 
-const github = await attempt("GitHub", githubActivity, { username: githubUser, publicRepos: 12, followers: 1, recentEvents: [] });
+const github = await attempt("GitHub", githubActivity, { username: githubUser, publicRepos: 12, followers: 1, recentEvents: [], repositories: [] });
 const leetcode = await attempt("LeetCode", leetcodeActivity, { username: leetcodeUser, solved: null, easy: null, medium: null, hard: null });
 const hackerrank = await attempt("HackerRank", hackerRankActivity, { username: hackerrankUser, primaryStat: "Profile", label: "open coding profile" });
 const output = { updatedAt: new Date().toISOString(), github, leetcode, hackerrank };
