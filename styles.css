@@ -1,10 +1,10 @@
 :root {
-  --background: #000000;
-  --surface: rgba(28, 28, 30, 0.6);
-  --surface-border: rgba(255, 255, 255, 0.1);
-  --text-primary: #f5f5f7;
+  --background: #f5f5f7;
+  --surface: rgba(255, 255, 255, 0.7);
+  --surface-border: rgba(0, 0, 0, 0.08);
+  --text-primary: #1d1d1f;
   --text-secondary: #86868b;
-  --accent: #2997ff;
+  --accent: #0066cc;
   --glass-blur: blur(20px);
   --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --mono: "ui-monospace", "SF Mono", "Menlo", monospace;
@@ -26,11 +26,11 @@ body {
 a { color: inherit; text-decoration: none; }
 button, a { -webkit-tap-highlight-color: transparent; }
 
-/* Subtle animated background gradient */
+/* Subtle animated background gradient (Light Mode) */
 .noise { 
   position: fixed; inset: 0; z-index: -2; pointer-events: none;
-  background: radial-gradient(circle at 50% 0%, rgba(41,151,255,0.15) 0%, transparent 50%),
-              radial-gradient(circle at 100% 50%, rgba(138,43,226,0.1) 0%, transparent 40%);
+  background: radial-gradient(circle at 50% 0%, rgba(0,102,204,0.04) 0%, transparent 50%),
+              radial-gradient(circle at 100% 50%, rgba(138,43,226,0.03) 0%, transparent 40%);
 }
 
 .section-shell { 
@@ -45,13 +45,13 @@ button, a { -webkit-tap-highlight-color: transparent; }
   position: fixed; z-index: 100; top: 0; left: 0; right: 0; 
   display: flex; justify-content: space-between; align-items: center; 
   padding: 1rem clamp(1.5rem, 5vw, 4rem); 
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(255, 255, 255, 0.75);
   backdrop-filter: var(--glass-blur);
   -webkit-backdrop-filter: var(--glass-blur);
   border-bottom: 1px solid var(--surface-border);
 }
-.wordmark { font: 600 1.25rem var(--sans); letter-spacing: -0.02em; }
-.site-header nav { display: flex; gap: 2rem; font: 400 0.9rem var(--sans); }
+.wordmark { font: 600 1.25rem var(--sans); letter-spacing: -0.02em; color: var(--text-primary); }
+.site-header nav { display: flex; gap: 2rem; font: 500 0.9rem var(--sans); }
 .site-header nav a, .header-contact { transition: color 0.3s ease; color: var(--text-secondary); }
 .site-header nav a:hover, .header-contact:hover { color: var(--text-primary); }
 
@@ -62,15 +62,16 @@ button, a { -webkit-tap-highlight-color: transparent; }
   text-align: center;
   padding-top: 6rem; padding-bottom: 4rem; 
 }
-.hero-copy { max-width: 800px; position: relative; z-index: 2; }
+.hero-copy { max-width: 850px; position: relative; z-index: 2; }
 .hero h1 { 
   font-size: clamp(3.5rem, 8vw, 6.5rem); 
   line-height: 1.05; letter-spacing: -0.04em; 
   font-weight: 700; margin: 0 0 1.5rem; 
-  background: linear-gradient(180deg, #fff 0%, #999 100%);
+  background: linear-gradient(180deg, #1d1d1f 0%, #434345 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.hero h1 em { font-style: normal; color: var(--accent); -webkit-text-fill-color: var(--accent); }
 .hero-intro { 
   font-size: clamp(1.1rem, 2vw, 1.4rem); 
   color: var(--text-secondary); 
@@ -86,14 +87,14 @@ button, a { -webkit-tap-highlight-color: transparent; }
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 .button-solid { 
-  background: var(--text-primary); color: var(--background); 
+  background: var(--text-primary); color: #fff; 
 }
-.button-solid:hover { transform: scale(1.02); background: #fff; box-shadow: 0 4px 14px rgba(255,255,255,0.25); }
+.button-solid:hover { transform: scale(1.03); background: #000; box-shadow: 0 10px 20px rgba(0,0,0,0.15); }
 .button-quiet { 
   background: transparent; color: var(--text-primary); 
   border: 1px solid var(--surface-border); 
 }
-.button-quiet:hover { transform: scale(1.02); background: rgba(255,255,255,0.05); }
+.button-quiet:hover { transform: scale(1.03); background: rgba(0,0,0,0.03); border-color: rgba(0,0,0,0.15); }
 
 /* Socials */
 .hero-socials { 
@@ -119,7 +120,7 @@ h2 {
   font-size: 1.1rem; color: var(--text-secondary); margin-bottom: 3rem; max-width: 600px; line-height: 1.6;
 }
 
-/* Glass Cards */
+/* Glass Cards with Appearing Hover Effect */
 .glass-card {
   background: var(--surface);
   border: 1px solid var(--surface-border);
@@ -127,9 +128,14 @@ h2 {
   backdrop-filter: var(--glass-blur);
   -webkit-backdrop-filter: var(--glass-blur);
   padding: 2.5rem;
-  transition: transform 0.3s ease, border-color 0.3s ease;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.02);
 }
-.glass-card:hover { border-color: rgba(255,255,255,0.3); }
+.glass-card:hover { 
+  transform: scale(1.02) translateY(-4px); 
+  box-shadow: 0 20px 40px rgba(0,0,0,0.08); 
+  border-color: rgba(0,0,0,0.15); 
+}
 
 /* Projects Grid */
 .project-grid {
@@ -144,8 +150,9 @@ h2 {
 .tag-row span { 
   padding: 0.3rem 0.6rem; border: 1px solid var(--surface-border); 
   border-radius: var(--radius-sm); font-size: 0.75rem; color: var(--text-secondary); 
+  background: rgba(0,0,0,0.02);
 }
-.project-link { margin-top: auto; color: var(--text-primary); font-size: 0.9rem; font-weight: 500; display: inline-flex; align-items: center; gap: 0.5rem; }
+.project-link { margin-top: auto; color: var(--accent); font-size: 0.9rem; font-weight: 500; display: inline-flex; align-items: center; gap: 0.5rem; }
 .project-link::after { content: "→"; transition: transform 0.3s ease; }
 .project-link:hover::after { transform: translateX(4px); }
 
@@ -162,12 +169,12 @@ h2 {
   margin-bottom: 3rem;
 }
 .service-mark { 
-  background: rgba(255,255,255,0.1); padding: 0.5rem 0.75rem; 
+  background: rgba(0,0,0,0.04); padding: 0.5rem 0.75rem; 
   border-radius: var(--radius-sm); font-weight: 600; font-size: 0.8rem;
   color: var(--text-primary);
 }
 .activity-card-head a { color: var(--text-secondary); font-size: 0.9rem; font-weight: 500; transition: color 0.2s; }
-.activity-card-head a:hover { color: var(--text-primary); }
+.activity-card-head a:hover { color: var(--accent); }
 
 .activity-card strong { font-size: 4rem; font-weight: 700; line-height: 1; letter-spacing: -0.04em; }
 .activity-label { color: var(--text-secondary); margin-top: 0.5rem; font-size: 1rem; font-weight: 500;}
