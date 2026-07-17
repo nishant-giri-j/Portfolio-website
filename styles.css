@@ -161,12 +161,37 @@ h2 {
   }
 }
 
-/* Projects Grid */
+/* Projects Grid (Horizontal Scroll Carousel) */
 .project-grid {
-  display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem;
+  display: flex;
+  overflow-x: auto;
+  gap: 1.5rem;
+  padding-bottom: 2rem;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
 }
+
+/* Custom Scrollbar for the horizontal lists */
+.project-grid::-webkit-scrollbar {
+  height: 6px;
+}
+.project-grid::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0.05);
+  border-radius: 3px;
+}
+.project-grid::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,0.15);
+  border-radius: 3px;
+}
+.project-grid::-webkit-scrollbar-thumb:hover {
+  background: rgba(0,0,0,0.3);
+}
+
 .project-card {
   display: flex; flex-direction: column; height: 100%;
+  flex: 0 0 85%;
+  max-width: 400px;
+  scroll-snap-align: center;
 }
 .project-card h3 { margin: 0 0 0.5rem; font-size: 1.5rem; letter-spacing: -0.02em; }
 .project-card p { color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6; margin: 0 0 1.5rem; }
