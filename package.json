@@ -1,0 +1,11 @@
+{
+  "name": "nishant-giri-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node --check app.js && node --check scripts/sync-activity.mjs",
+    "sync:activity": "node scripts/sync-activity.mjs"
+  }
+}
+
