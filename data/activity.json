@@ -1,11 +1,16 @@
 {
-  "updatedAt": "2026-07-17T15:24:31.092Z",
+  "updatedAt": "2026-07-18T05:37:46.784Z",
   "github": {
     "username": "nishant-giri-j",
-    "publicRepos": 14,
+    "publicRepos": 15,
     "followers": 1,
     "updatedAt": "2026-02-13T10:27:46Z",
     "recentEvents": [
+      {
+        "type": "CREATE",
+        "description": "Created branch in flying-bird-game",
+        "createdAt": "2026-07-17T17:00:59Z"
+      },
       {
         "type": "PUSH",
         "description": "Pushed 0 commits to Portfolio-website",
@@ -58,6 +63,14 @@
       }
     ],
     "repositories": [
+      {
+        "name": "flying-bird-game",
+        "description": "",
+        "url": "https://github.com/nishant-giri-j/flying-bird-game",
+        "topics": [],
+        "language": "CSS",
+        "stargazers_count": 0
+      },
       {
         "name": "Portfolio-website",
         "description": "",
