@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T05:37:46.784Z",
+  "updatedAt": "2026-07-19T06:09:54.273Z",
   "github": {
     "username": "nishant-giri-j",
     "publicRepos": 15,
@@ -64,19 +64,19 @@
     ],
     "repositories": [
       {
-        "name": "flying-bird-game",
-        "description": "",
-        "url": "https://github.com/nishant-giri-j/flying-bird-game",
-        "topics": [],
-        "language": "CSS",
-        "stargazers_count": 0
-      },
-      {
         "name": "Portfolio-website",
         "description": "",
         "url": "https://github.com/nishant-giri-j/Portfolio-website",
         "topics": [],
         "language": "JavaScript",
+        "stargazers_count": 0
+      },
+      {
+        "name": "flying-bird-game",
+        "description": "",
+        "url": "https://github.com/nishant-giri-j/flying-bird-game",
+        "topics": [],
+        "language": "CSS",
         "stargazers_count": 0
       },
       {
