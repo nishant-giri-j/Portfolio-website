@@ -1,68 +1,81 @@
 {
-  "updatedAt": "2026-07-29T06:08:54.910Z",
+  "updatedAt": "2026-07-30T06:00:40.471Z",
   "github": {
     "username": "nishant-giri-j",
-    "publicRepos": 15,
+    "publicRepos": 14,
     "followers": 1,
     "updatedAt": "2026-02-13T10:27:46Z",
     "recentEvents": [
       {
+        "type": "PUSH",
+        "description": "Pushed 0 commits to DocAnalyser",
+        "createdAt": "2026-07-29T20:41:06Z"
+      },
+      {
+        "type": "PUSH",
+        "description": "Pushed 0 commits to DocAnalyser",
+        "createdAt": "2026-07-29T20:38:20Z"
+      },
+      {
+        "type": "PUSH",
+        "description": "Pushed 0 commits to DocAnalyser",
+        "createdAt": "2026-07-29T20:11:14Z"
+      },
+      {
+        "type": "PUSH",
+        "description": "Pushed 0 commits to DocAnalyser",
+        "createdAt": "2026-07-29T19:59:07Z"
+      },
+      {
+        "type": "PUSH",
+        "description": "Pushed 0 commits to DocAnalyser",
+        "createdAt": "2026-07-29T19:27:29Z"
+      },
+      {
+        "type": "PUSH",
+        "description": "Pushed 0 commits to DocAnalyser",
+        "createdAt": "2026-07-29T19:20:52Z"
+      },
+      {
+        "type": "PUSH",
+        "description": "Pushed 0 commits to DocAnalyser",
+        "createdAt": "2026-07-29T19:14:42Z"
+      },
+      {
+        "type": "PUSH",
+        "description": "Pushed 0 commits to DocAnalyser",
+        "createdAt": "2026-07-29T19:04:24Z"
+      },
+      {
+        "type": "PUSH",
+        "description": "Pushed 0 commits to DocAnalyser",
+        "createdAt": "2026-07-29T18:59:35Z"
+      },
+      {
+        "type": "PUSH",
+        "description": "Pushed 0 commits to DocAnalyser",
+        "createdAt": "2026-07-29T18:51:47Z"
+      },
+      {
+        "type": "PUSH",
+        "description": "Pushed 0 commits to DocAnalyser",
+        "createdAt": "2026-07-29T18:47:32Z"
+      },
+      {
         "type": "CREATE",
-        "description": "Created branch in flying-bird-game",
-        "createdAt": "2026-07-17T17:00:59Z"
-      },
-      {
-        "type": "PUSH",
-        "description": "Pushed 0 commits to Portfolio-website",
-        "createdAt": "2026-07-17T15:24:20Z"
-      },
-      {
-        "type": "PUSH",
-        "description": "Pushed 0 commits to Portfolio-website",
-        "createdAt": "2026-07-17T13:29:34Z"
-      },
-      {
-        "type": "PUSH",
-        "description": "Pushed 0 commits to Portfolio-website",
-        "createdAt": "2026-07-17T13:25:55Z"
-      },
-      {
-        "type": "PUSH",
-        "description": "Pushed 0 commits to Portfolio-website",
-        "createdAt": "2026-07-17T13:22:43Z"
-      },
-      {
-        "type": "PUSH",
-        "description": "Pushed 0 commits to Portfolio-website",
-        "createdAt": "2026-07-17T13:13:39Z"
-      },
-      {
-        "type": "PUSH",
-        "description": "Pushed 0 commits to Portfolio-website",
-        "createdAt": "2026-07-17T12:53:44Z"
-      },
-      {
-        "type": "PUSH",
-        "description": "Pushed 0 commits to Portfolio-website",
-        "createdAt": "2026-07-17T10:03:55Z"
-      },
-      {
-        "type": "PUSH",
-        "description": "Pushed 0 commits to Portfolio-website",
-        "createdAt": "2026-07-17T09:15:58Z"
-      },
-      {
-        "type": "PUSH",
-        "description": "Pushed 0 commits to Portfolio-website",
-        "createdAt": "2026-07-17T09:06:44Z"
-      },
-      {
-        "type": "CREATE",
-        "description": "Created branch in Portfolio-website",
-        "createdAt": "2026-07-17T09:04:43Z"
+        "description": "Created branch in DocAnalyser",
+        "createdAt": "2026-07-29T18:33:17Z"
       }
     ],
     "repositories": [
+      {
+        "name": "DocAnalyser",
+        "description": "",
+        "url": "https://github.com/nishant-giri-j/DocAnalyser",
+        "topics": [],
+        "language": "JavaScript",
+        "stargazers_count": 0
+      },
       {
         "name": "Portfolio-website",
         "description": "",
@@ -77,14 +90,6 @@
         "url": "https://github.com/nishant-giri-j/flying-bird-game",
         "topics": [],
         "language": "CSS",
-        "stargazers_count": 0
-      },
-      {
-        "name": "resume",
-        "description": "",
-        "url": "https://github.com/nishant-giri-j/resume",
-        "topics": [],
-        "language": null,
         "stargazers_count": 0
       },
       {
@@ -160,14 +165,6 @@
         "stargazers_count": 0
       },
       {
-        "name": "INTRODUCTION",
-        "description": "",
-        "url": "https://github.com/nishant-giri-j/INTRODUCTION",
-        "topics": [],
-        "language": "Python",
-        "stargazers_count": 0
-      },
-      {
         "name": "logo",
         "description": "",
         "url": "https://github.com/nishant-giri-j/logo",
@@ -187,8 +184,8 @@
   },
   "leetcode": {
     "username": "girinb",
-    "solved": 157,
-    "easy": 45,
+    "solved": 158,
+    "easy": 46,
     "medium": 91,
     "hard": 21
   },
