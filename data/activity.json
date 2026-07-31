@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T06:00:40.471Z",
+  "updatedAt": "2026-07-31T06:25:16.939Z",
   "github": {
     "username": "nishant-giri-j",
     "publicRepos": 14,
@@ -69,17 +69,17 @@
     ],
     "repositories": [
       {
-        "name": "DocAnalyser",
+        "name": "Portfolio-website",
         "description": "",
-        "url": "https://github.com/nishant-giri-j/DocAnalyser",
+        "url": "https://github.com/nishant-giri-j/Portfolio-website",
         "topics": [],
         "language": "JavaScript",
         "stargazers_count": 0
       },
       {
-        "name": "Portfolio-website",
+        "name": "DocAnalyser",
         "description": "",
-        "url": "https://github.com/nishant-giri-j/Portfolio-website",
+        "url": "https://github.com/nishant-giri-j/DocAnalyser",
         "topics": [],
         "language": "JavaScript",
         "stargazers_count": 0
