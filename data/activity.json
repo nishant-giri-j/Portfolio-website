@@ -1,11 +1,21 @@
 {
-  "updatedAt": "2026-08-26T04:05:09.084Z",
+  "updatedAt": "2026-08-27T14:16:28.740Z",
   "github": {
     "username": "nishant-giri-j",
-    "publicRepos": 14,
+    "publicRepos": 15,
     "followers": 1,
     "updatedAt": "2026-02-13T10:27:46Z",
     "recentEvents": [
+      {
+        "type": "PUSH",
+        "description": "Pushed 0 commits to System-Architecture-studio",
+        "createdAt": "2026-08-27T00:13:46Z"
+      },
+      {
+        "type": "CREATE",
+        "description": "Created branch in System-Architecture-studio",
+        "createdAt": "2026-08-27T00:12:45Z"
+      },
       {
         "type": "PUSH",
         "description": "Pushed 0 commits to DocAnalyser",
@@ -55,19 +65,25 @@
         "type": "PUSH",
         "description": "Pushed 0 commits to DocAnalyser",
         "createdAt": "2026-07-29T18:51:47Z"
-      },
-      {
-        "type": "PUSH",
-        "description": "Pushed 0 commits to DocAnalyser",
-        "createdAt": "2026-07-29T18:47:32Z"
-      },
-      {
-        "type": "CREATE",
-        "description": "Created branch in DocAnalyser",
-        "createdAt": "2026-07-29T18:33:17Z"
       }
     ],
     "repositories": [
+      {
+        "name": "basic-fast-api-project",
+        "description": "Here, i used basic react knowledge, backend in python and shown how to use API key to call any AI response",
+        "url": "https://github.com/nishant-giri-j/basic-fast-api-project",
+        "topics": [],
+        "language": "CSS",
+        "stargazers_count": 0
+      },
+      {
+        "name": "System-Architecture-studio",
+        "description": "",
+        "url": "https://github.com/nishant-giri-j/System-Architecture-studio",
+        "topics": [],
+        "language": "TypeScript",
+        "stargazers_count": 0
+      },
       {
         "name": "Portfolio-website",
         "description": "",
@@ -106,14 +122,6 @@
         "url": "https://github.com/nishant-giri-j/InsightFlow",
         "topics": [],
         "language": "JavaScript",
-        "stargazers_count": 0
-      },
-      {
-        "name": "basic-fast-api-project",
-        "description": "Here, i used basic react knowledge, backend in python and shown how to use API key to call any AI response",
-        "url": "https://github.com/nishant-giri-j/basic-fast-api-project",
-        "topics": [],
-        "language": "CSS",
         "stargazers_count": 0
       },
       {
