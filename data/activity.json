@@ -1,11 +1,26 @@
 {
-  "updatedAt": "2026-08-27T14:16:28.740Z",
+  "updatedAt": "2026-08-28T15:26:35.241Z",
   "github": {
     "username": "nishant-giri-j",
     "publicRepos": 15,
     "followers": 1,
     "updatedAt": "2026-02-13T10:27:46Z",
     "recentEvents": [
+      {
+        "type": "PUSH",
+        "description": "Pushed 0 commits to basic-fast-api-project",
+        "createdAt": "2026-08-27T12:16:39Z"
+      },
+      {
+        "type": "PUSH",
+        "description": "Pushed 0 commits to System-Architecture-studio",
+        "createdAt": "2026-08-27T00:21:16Z"
+      },
+      {
+        "type": "PUSH",
+        "description": "Pushed 0 commits to System-Architecture-studio",
+        "createdAt": "2026-08-27T00:19:22Z"
+      },
       {
         "type": "PUSH",
         "description": "Pushed 0 commits to System-Architecture-studio",
@@ -50,24 +65,17 @@
         "type": "PUSH",
         "description": "Pushed 0 commits to DocAnalyser",
         "createdAt": "2026-07-29T19:14:42Z"
-      },
-      {
-        "type": "PUSH",
-        "description": "Pushed 0 commits to DocAnalyser",
-        "createdAt": "2026-07-29T19:04:24Z"
-      },
-      {
-        "type": "PUSH",
-        "description": "Pushed 0 commits to DocAnalyser",
-        "createdAt": "2026-07-29T18:59:35Z"
-      },
-      {
-        "type": "PUSH",
-        "description": "Pushed 0 commits to DocAnalyser",
-        "createdAt": "2026-07-29T18:51:47Z"
       }
     ],
     "repositories": [
+      {
+        "name": "Portfolio-website",
+        "description": "",
+        "url": "https://github.com/nishant-giri-j/Portfolio-website",
+        "topics": [],
+        "language": "JavaScript",
+        "stargazers_count": 0
+      },
       {
         "name": "basic-fast-api-project",
         "description": "Here, i used basic react knowledge, backend in python and shown how to use API key to call any AI response",
@@ -82,14 +90,6 @@
         "url": "https://github.com/nishant-giri-j/System-Architecture-studio",
         "topics": [],
         "language": "TypeScript",
-        "stargazers_count": 0
-      },
-      {
-        "name": "Portfolio-website",
-        "description": "",
-        "url": "https://github.com/nishant-giri-j/Portfolio-website",
-        "topics": [],
-        "language": "JavaScript",
         "stargazers_count": 0
       },
       {
