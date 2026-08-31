@@ -1,11 +1,16 @@
 {
-  "updatedAt": "2026-08-30T09:17:36.315Z",
+  "updatedAt": "2026-08-31T09:50:01.332Z",
   "github": {
     "username": "nishant-giri-j",
     "publicRepos": 15,
     "followers": 1,
     "updatedAt": "2026-02-13T10:27:46Z",
     "recentEvents": [
+      {
+        "type": "PUSH",
+        "description": "Pushed 0 commits to System-Architecture-studio",
+        "createdAt": "2026-08-30T17:01:55Z"
+      },
       {
         "type": "PUSH",
         "description": "Pushed 0 commits to basic-fast-api-project",
@@ -34,6 +39,14 @@
     ],
     "repositories": [
       {
+        "name": "System-Architecture-studio",
+        "description": "",
+        "url": "https://github.com/nishant-giri-j/System-Architecture-studio",
+        "topics": [],
+        "language": "TypeScript",
+        "stargazers_count": 0
+      },
+      {
         "name": "Portfolio-website",
         "description": "",
         "url": "https://github.com/nishant-giri-j/Portfolio-website",
@@ -47,14 +60,6 @@
         "url": "https://github.com/nishant-giri-j/basic-fast-api-project",
         "topics": [],
         "language": "CSS",
-        "stargazers_count": 0
-      },
-      {
-        "name": "System-Architecture-studio",
-        "description": "",
-        "url": "https://github.com/nishant-giri-j/System-Architecture-studio",
-        "topics": [],
-        "language": "TypeScript",
         "stargazers_count": 0
       },
       {
