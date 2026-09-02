@@ -1,11 +1,21 @@
 {
-  "updatedAt": "2026-09-01T08:42:40.994Z",
+  "updatedAt": "2026-09-02T07:57:43.755Z",
   "github": {
     "username": "nishant-giri-j",
     "publicRepos": 15,
     "followers": 1,
     "updatedAt": "2026-02-13T10:27:46Z",
     "recentEvents": [
+      {
+        "type": "PUSH",
+        "description": "Pushed 0 commits to System-Architecture-studio",
+        "createdAt": "2026-09-01T09:34:16Z"
+      },
+      {
+        "type": "PUSH",
+        "description": "Pushed 0 commits to System-Architecture-studio",
+        "createdAt": "2026-09-01T09:38:15Z"
+      },
       {
         "type": "PUSH",
         "description": "Pushed 0 commits to System-Architecture-studio",
@@ -39,19 +49,19 @@
     ],
     "repositories": [
       {
-        "name": "Portfolio-website",
-        "description": "",
-        "url": "https://github.com/nishant-giri-j/Portfolio-website",
-        "topics": [],
-        "language": "JavaScript",
-        "stargazers_count": 0
-      },
-      {
         "name": "System-Architecture-studio",
         "description": "",
         "url": "https://github.com/nishant-giri-j/System-Architecture-studio",
         "topics": [],
         "language": "TypeScript",
+        "stargazers_count": 0
+      },
+      {
+        "name": "Portfolio-website",
+        "description": "",
+        "url": "https://github.com/nishant-giri-j/Portfolio-website",
+        "topics": [],
+        "language": "JavaScript",
         "stargazers_count": 0
       },
       {
