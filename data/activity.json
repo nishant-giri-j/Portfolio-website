@@ -1,11 +1,21 @@
 {
-  "updatedAt": "2026-10-15T08:22:27.314Z",
+  "updatedAt": "2026-10-16T08:15:07.928Z",
   "github": {
     "username": "nishant-giri-j",
     "publicRepos": 16,
     "followers": 1,
     "updatedAt": "2026-02-13T10:27:46Z",
     "recentEvents": [
+      {
+        "type": "PUSH",
+        "description": "Pushed 0 commits to covid19-global-data-explorer",
+        "createdAt": "2026-10-14T12:14:03Z"
+      },
+      {
+        "type": "CREATE",
+        "description": "Created branch in covid19-global-data-explorer",
+        "createdAt": "2026-10-14T10:05:52Z"
+      },
       {
         "type": "PUSH",
         "description": "Pushed 0 commits to covid19-global-data-explorer",
@@ -19,19 +29,19 @@
     ],
     "repositories": [
       {
-        "name": "covid19-global-data-explorer",
-        "description": "",
-        "url": "https://github.com/nishant-giri-j/covid19-global-data-explorer",
-        "topics": [],
-        "language": "Python",
-        "stargazers_count": 0
-      },
-      {
         "name": "Portfolio-website",
         "description": "",
         "url": "https://github.com/nishant-giri-j/Portfolio-website",
         "topics": [],
         "language": "JavaScript",
+        "stargazers_count": 0
+      },
+      {
+        "name": "covid19-global-data-explorer",
+        "description": "",
+        "url": "https://github.com/nishant-giri-j/covid19-global-data-explorer",
+        "topics": [],
+        "language": "Python",
         "stargazers_count": 0
       },
       {
