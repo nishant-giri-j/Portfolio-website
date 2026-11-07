@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T10:59:26.064Z",
+  "updatedAt": "2026-11-07T10:19:10.322Z",
   "github": {
     "username": "nishant-giri-j",
     "publicRepos": 16,
@@ -29,6 +29,14 @@
     ],
     "repositories": [
       {
+        "name": "System-Architecture-studio",
+        "description": "",
+        "url": "https://github.com/nishant-giri-j/System-Architecture-studio",
+        "topics": [],
+        "language": "TypeScript",
+        "stargazers_count": 0
+      },
+      {
         "name": "Portfolio-website",
         "description": "",
         "url": "https://github.com/nishant-giri-j/Portfolio-website",
@@ -42,14 +50,6 @@
         "url": "https://github.com/nishant-giri-j/covid19-global-data-explorer",
         "topics": [],
         "language": "Python",
-        "stargazers_count": 0
-      },
-      {
-        "name": "System-Architecture-studio",
-        "description": "",
-        "url": "https://github.com/nishant-giri-j/System-Architecture-studio",
-        "topics": [],
-        "language": "TypeScript",
         "stargazers_count": 0
       },
       {
