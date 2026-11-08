@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T10:19:10.322Z",
+  "updatedAt": "2026-11-08T10:28:25.471Z",
   "github": {
     "username": "nishant-giri-j",
     "publicRepos": 16,
@@ -29,11 +29,11 @@
     ],
     "repositories": [
       {
-        "name": "System-Architecture-studio",
+        "name": "GAN-Plant-Disease-Research",
         "description": "",
-        "url": "https://github.com/nishant-giri-j/System-Architecture-studio",
+        "url": "https://github.com/nishant-giri-j/GAN-Plant-Disease-Research",
         "topics": [],
-        "language": "TypeScript",
+        "language": "Python",
         "stargazers_count": 0
       },
       {
@@ -42,6 +42,14 @@
         "url": "https://github.com/nishant-giri-j/Portfolio-website",
         "topics": [],
         "language": "JavaScript",
+        "stargazers_count": 0
+      },
+      {
+        "name": "System-Architecture-studio",
+        "description": "",
+        "url": "https://github.com/nishant-giri-j/System-Architecture-studio",
+        "topics": [],
+        "language": "TypeScript",
         "stargazers_count": 0
       },
       {
@@ -114,14 +122,6 @@
         "url": "https://github.com/nishant-giri-j/Artificial-General-Intelligence",
         "topics": [],
         "language": null,
-        "stargazers_count": 0
-      },
-      {
-        "name": "GAN-Plant-Disease-Research",
-        "description": "",
-        "url": "https://github.com/nishant-giri-j/GAN-Plant-Disease-Research",
-        "topics": [],
-        "language": "Python",
         "stargazers_count": 0
       },
       {
