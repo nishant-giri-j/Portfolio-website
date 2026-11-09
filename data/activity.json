@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T10:28:25.471Z",
+  "updatedAt": "2026-11-09T11:40:22.440Z",
   "github": {
     "username": "nishant-giri-j",
     "publicRepos": 16,
@@ -29,19 +29,19 @@
     ],
     "repositories": [
       {
-        "name": "GAN-Plant-Disease-Research",
-        "description": "",
-        "url": "https://github.com/nishant-giri-j/GAN-Plant-Disease-Research",
-        "topics": [],
-        "language": "Python",
-        "stargazers_count": 0
-      },
-      {
         "name": "Portfolio-website",
         "description": "",
         "url": "https://github.com/nishant-giri-j/Portfolio-website",
         "topics": [],
         "language": "JavaScript",
+        "stargazers_count": 0
+      },
+      {
+        "name": "GAN-Plant-Disease-Research",
+        "description": "",
+        "url": "https://github.com/nishant-giri-j/GAN-Plant-Disease-Research",
+        "topics": [],
+        "language": "Python",
         "stargazers_count": 0
       },
       {
