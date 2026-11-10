@@ -1,11 +1,21 @@
 {
-  "updatedAt": "2026-11-09T11:40:22.440Z",
+  "updatedAt": "2026-11-10T11:18:26.683Z",
   "github": {
     "username": "nishant-giri-j",
-    "publicRepos": 16,
+    "publicRepos": 17,
     "followers": 1,
-    "updatedAt": "2026-02-13T10:27:46Z",
+    "updatedAt": "2026-11-09T16:27:49Z",
     "recentEvents": [
+      {
+        "type": "PULLREQUEST",
+        "description": "opened pull request in juspay/hyperswitch",
+        "createdAt": "2026-11-10T10:07:12Z"
+      },
+      {
+        "type": "FORK",
+        "description": "Forked juspay/hyperswitch",
+        "createdAt": "2026-11-10T09:22:06Z"
+      },
       {
         "type": "PUSH",
         "description": "Pushed 0 commits to covid19-global-data-explorer",
