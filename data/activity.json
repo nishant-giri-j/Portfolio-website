@@ -1,11 +1,21 @@
 {
-  "updatedAt": "2026-11-10T11:18:26.683Z",
+  "updatedAt": "2026-11-11T11:04:47.953Z",
   "github": {
     "username": "nishant-giri-j",
     "publicRepos": 17,
     "followers": 1,
     "updatedAt": "2026-11-09T16:27:49Z",
     "recentEvents": [
+      {
+        "type": "PUSH",
+        "description": "Pushed 0 commits to hyperswitch",
+        "createdAt": "2026-11-10T10:06:18Z"
+      },
+      {
+        "type": "PUSH",
+        "description": "Pushed 0 commits to hyperswitch",
+        "createdAt": "2026-11-10T09:31:09Z"
+      },
       {
         "type": "PULLREQUEST",
         "description": "opened pull request in juspay/hyperswitch",
